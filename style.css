@@ -35,7 +35,7 @@ body {
   position: absolute;
   width: 400px;
   height: auto;
-  top: 20%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
