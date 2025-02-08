@@ -31,39 +31,6 @@ body {
   filter: blur(0.1vmin);
 }
 
-.flying-butterfly {
-  position: absolute;
-  width: 400px;
-  height: auto;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 0;
-}
-
-.flying-butterfly--2 {
-  position: absolute;
-  width: 400px;
-  height: auto;
-  top: 60%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 0;
-}
-
-.flying-butterfly--3 {
-  position: absolute;
-  width: 400px;
-  height: auto;
-  top: 70%;
-  left: 75%;
-  transform: translate(-50%, -50%) scaleX(-1);
-  pointer-events: none;
-  z-index: 0;
-}
-
 .our-photo {
   position: absolute;
   width: 200px;
@@ -75,6 +42,39 @@ body {
   rotate: -30deg;
   pointer-events: none;
   z-index: 0;
+}
+
+.flying-butterfly {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.flying-butterfly--2 {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.flying-butterfly--3 {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  top: 70%;
+  left: 75%;
+  transform: translate(-50%, -50%) scaleX(-1);
+  pointer-events: none;
+  z-index: 3;
 }
 
 .flowers {
