@@ -41,7 +41,7 @@ body {
   opacity: 0.8;
   rotate: -30deg;
   pointer-events: none;
-  z-index: 0;
+  z-index: -100;
 }
 
 .flying-butterfly {
@@ -52,7 +52,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  z-index: 1;
+  z-index: -99;
 }
 
 .flying-butterfly--2 {
@@ -63,7 +63,7 @@ body {
   left: 25%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  z-index: 2;
+  z-index: -98;
 }
 
 .flying-butterfly--3 {
@@ -74,7 +74,7 @@ body {
   left: 75%;
   transform: translate(-50%, -50%) scaleX(-1);
   pointer-events: none;
-  z-index: 3;
+  z-index: -97;
 }
 
 .flowers {
