@@ -59,7 +59,20 @@ body {
   height: auto;
   top: 70%;
   left: 75%;
+  transform: translate(-50%, -50%) scaleX(-1);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.our-photo {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  top: 25%;
+  left: 15%;
   transform: translate(-50%, -50%);
+  opacity: 0.8;
+  rotate: -30deg;
   pointer-events: none;
   z-index: 0;
 }
